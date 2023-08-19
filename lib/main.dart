@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/screens/text_to_speech/text_to_speech.dart';
+import 'package:widgets/screens/Google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TextToSpeeach(),
+      home: const GoogleFontsWd(),
       debugShowCheckedModeBanner: false, // To remove debug banner
     );
   }
